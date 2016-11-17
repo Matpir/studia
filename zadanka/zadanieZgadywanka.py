@@ -9,20 +9,17 @@ wylosowana = random.randint(0, 100)
 print "Podaj ilosc prob: "
 iloscProb = input()
 
-print "Podaj liczbe: "
-zgadywana = input()
-
 i = 0
-while i<iloscProb:
-    if zgadywana > wylosowana:
-        print "Twoja liczba jest wieksza od wylosowanej"
-    elif (zgadywana == wylosowana):
+while i < iloscProb:
+    print "Podaj liczbe: "
+    zgadywana = input()
+    if (zgadywana == wylosowana):
         print "Zgadles!"
         break
+    elif zgadywana > wylosowana:
+        print "Twoja liczba jest wieksza od wylosowanej"
     else:
         print "Twoja liczba jest mniejsza od wylosowanej"
-        print "Podaj liczbe: "
-
-    i+=1
+    i += 1
 
 print "Koniec"
