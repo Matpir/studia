@@ -1,0 +1,6 @@
+<kategorie>
+OGOLNA:haslo,haslo1,haslo2
+HISTORIA:haslo1,haslo2
+MATEMATYKA:haslo1,haslo2
+INFORMATYKA:haslo1,haslo2
+</kategorie>
